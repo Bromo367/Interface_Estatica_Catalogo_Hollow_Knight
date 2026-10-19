@@ -1,0 +1,80 @@
+body{
+    background-color: #0B0B23;
+    font-family: 'Segoe UI';
+    color: #EBF2F5;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 27px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+#barraPesquisa{
+    margin-left:auto;
+    width: 350px;
+    display: flex;
+    background-color:#222250;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 75px;
+}
+#inputBarraPesquisa{
+    background-color:#00000000;
+    color: #EBF2F5;
+    border-radius: 15px;
+    font-size: 22px;
+    border:0px;
+    width: 100%;
+}
+#layout{
+    display: flex;
+}
+aside{
+    background-color: #181842;
+    box-shadow: 5px 2px 40px 10px rgba(0, 0, 0, 0.4);
+    width: 280px;
+    flex-shrink: 0;
+    padding: 50px;
+    border-top-right-radius: 15px;
+}
+.itensBarraLateral{
+    display: block;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #EBF2F5;
+}
+main{
+    flex: 1;
+    min-width: 0;
+    padding: 10px 50px 10px 70px;
+}
+#catalogoCriaturas{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.displayCriatura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iconeCriatura{
+    background-color: #141438;
+    border-width: 3px;
+    border-radius: 100%;
+    border-color: #8a8ca2;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkCriatura{
+    font-size: 18px;
+    color: #EBF2F5;
+}
