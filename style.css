@@ -46,11 +46,12 @@ aside{
     font-size: 20px;
     padding-bottom: 20px;
     color: #EBF2F5;
+    font-weight: 600;
 }
 main{
     flex: 1;
     min-width: 0;
-    padding: 10px 50px 10px 70px;
+    padding: 10px 70px;
 }
 #catalogoCriaturas{
     display: flex;
@@ -77,4 +78,40 @@ main{
 .linkCriatura{
     font-size: 18px;
     color: #EBF2F5;
+}
+
+#mainCriatura{
+    display: flex;
+}
+#conteudoCriatura{
+    flex:1;
+}
+.divisor{
+    margin: auto;
+    display: block;
+}
+#tabelaCriaturaLayout{
+    flex:1;
+    padding: 50px;
+    display: flex;
+    justify-content: center
+}
+#tabelaCriatura{
+    width: 330px;
+    height: 430px;
+    padding: 10px 20px;
+    background-color: #141438;
+    border-width: 5px;
+    border-color: #b0b2c9;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+}
+#cabecalhoTabelaCriatura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#tituloTabelaCriatura{
+    margin: 0px;
 }
