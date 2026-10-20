@@ -61,8 +61,8 @@ p{
 }
 #catalogoCriaturas{
     display: flex;
-    gap: 50px;
     flex-wrap: wrap;
+    gap: 50px;
 }
 .displayCriatura{
     display: flex;
@@ -81,9 +81,17 @@ p{
     justify-content: center;
     align-items: center;
 }
+.imgCriaturaCatalogo{
+    max-width: 80px;
+    max-height: 80px;
+    height: auto;
+    width: auto;
+}
 .linkCriatura{
     font-size: 18px;
     color: #EBF2F5;
+    max-width: 100px;
+    text-align: center;
 }
 
 #mainCriatura{
