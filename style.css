@@ -47,6 +47,10 @@ aside{
     padding-bottom: 20px;
     color: #EBF2F5;
     font-weight: 600;
+    text-decoration: none;
+}
+#menuAtual{
+    text-decoration: underline;
 }
 main{
     flex: 1;
@@ -103,6 +107,7 @@ p{
 .divisor{
     margin: auto;
     display: block;
+    width: 100px;
 }
 .divisorArea{
     margin:auto;
@@ -141,6 +146,7 @@ p{
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .displayArea{
     display: flex;
@@ -148,13 +154,13 @@ p{
     align-items: center;
 }
 .iconeArea{
-    background-color: #141438;
+    background-color: #000000;
     border-width: 3px;
     border-radius: 5%;
     border-color: #8a8ca2;
     border-style: solid;
-    width: 200px;
     height: 156px;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
