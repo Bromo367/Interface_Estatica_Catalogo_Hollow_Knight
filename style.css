@@ -32,6 +32,7 @@ header{
 }
 #layout{
     display: flex;
+    height: 100%;
 }
 aside{
     background-color: #181842;
@@ -40,6 +41,8 @@ aside{
     flex-shrink: 0;
     padding: 50px;
     border-top-right-radius: 15px;
+    height: 100%;
+    margin: 0px;
 }
 .itensBarraLateral{
     display: block;
